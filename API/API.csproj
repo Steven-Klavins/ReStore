@@ -2,13 +2,13 @@
 
   <PropertyGroup>
     <TargetFramework>net7.0</TargetFramework>
-    <Nullable>disable</Nullable>
+    <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
   <PropertyGroup>  
-    <!-- Make sure nullable warnings occur as errors, not warnings  -->
-    <WarningsAsErrors>CS8604</WarningsAsErrors>
+    <!-- Make sure nullable warnings occur as errors -->
+    <WarningsAsErrors>CS8618</WarningsAsErrors>
   </PropertyGroup>
 
   <ItemGroup>
